@@ -1,0 +1,9 @@
+## Alterações Base de Dados
+
+-- Inserção colunas tabela CadastroGeral
+ObsRecall
+UsuCadRecall
+DtCadRecall
+UsuAltRecall
+DtAltRecall
+JustAltRecall
