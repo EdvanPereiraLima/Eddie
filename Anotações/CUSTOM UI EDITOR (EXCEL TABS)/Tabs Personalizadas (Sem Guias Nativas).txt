@@ -1,0 +1,232 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+
+
+	<!--rIBON-->	
+	<ribbon startFromScratch="true">
+
+		<contextualTabs>
+     		<tabSet idMso="TabSetSmartArtTools" visible="false" />
+     		<tabSet idMso="TabSetChartTools" visible="false" />
+	      	<tabSet idMso="TabSetDrawingTools" visible="false" />
+			<tabSet idMso="TabSetPictureTools" visible="false" />
+			<tabSet idMso="TabSetPivotTableTools" visible="false" />
+			<tabSet idMso="TabSetHeaderAndFooterTools" visible="false" />
+			<tabSet idMso="TabSetTableToolsExcel" visible="false" />
+			<tabSet idMso="TabSetPivotChartTools" visible="false" />
+			<tabSet idMso="TabSetInkTools" visible="false" />
+    	</contextualTabs>
+
+		<tabs>
+
+			<!--Tab Inicial-->
+			<tab id="TabInicial" label="Inicio">
+
+				<!--Cadastros Pessoas-->
+				<group
+					id="Grupo5"
+					label="Informações"
+					visible="true" >
+
+					<!--Botão Consultar Aniversariantes-->
+					<button
+						id="btnConsultarAniversariantes"
+						label="Consultar Aniversariantes"
+						image="Aniversarios"
+						size="large"
+				            screentip="Consultar aniversários"
+            				supertip="Clique neste botão para consultar aniversariantes do dia!!!"/>
+						
+
+					<!--Botão Consultar Eventos-->
+					<button
+						id="btnConsultarEventos"
+						label="Próximos Eventos"
+						image="Eventos"
+						size="large"/>
+				</group >
+			
+			</tab>
+
+			<!--Tab Cadastros-->
+			<tab id="TabCadastros" label="Cadastros">
+
+				<!--Cadastros Pessoas-->
+				<group
+					id="Grupo1"
+					label="Dados Pessoais"
+					visible="true" >
+
+					<!--Botão Cadastrar Usuário-->
+					<button
+						id="btnCadastrarUsuario"
+						label="Novo Usuário"
+						image="Usuario"
+						size="large"
+						onAction="Cadastrar_Usuario"/>
+					
+					<!--Separador-->
+					<separator id="sep1"/>
+
+					<!--Botão Cadastrar Usuário-->
+					<button
+						id="btnCadastrarCliente"
+						label="Novo Cliente"
+						image="Cliente"
+						size="large"
+						onAction="Cadastrar_Cliente"/>
+
+					<!--Separador-->
+					<separator id="sep2"/>
+
+					<!--Botão Cadastrar Fornecedor-->
+					<button
+						id="btnCadastrarFornecedor"
+						label="Novo Fornecedor"
+						image="Fornecedor"
+						size="large"
+						onAction="Cadastrar_Fornecedor"/>
+
+				</group >
+
+				<!--Cadastros Produtos e Serviços-->
+				<group
+					id="Grupo2"
+					label="Itens e Valores"
+					visible="true" >
+
+					<!--Botão Cadastrar Produtos-->
+					<button
+						id="btnCadastrarProduto"
+						label="Novo Produto"
+						image="Produtos"
+						size="large"
+						onAction="Cadastrar_Produto"/>
+
+					<!--Separador-->
+					<separator id="sep3"/>
+
+					<!--Botão Cadastrar Serviços-->
+					<button
+						id="btnCadastrarServico"
+						label="Novo Serviço"
+						image="Caixa_Ferramenta"
+						size="large"/>
+
+
+				</group >
+
+				<!--Cadastros Marcas e Modelos-->
+				<group
+					id="Grupo3"
+					label="Marcas e Modelos"
+					visible="true" >
+
+					<!--Botão Cadastrar Produtos-->
+					<button
+						id="btnCadastrarMarca"
+						label="Nova Marca"
+						image="Marca"
+						size="large"/>
+
+					<!--Separador-->
+					<separator id="sep4"/>
+
+					<!--Botão Cadastrar Serviços-->
+					<button
+						id="btnCadastrarModelo"
+						label="Novo Modelo"
+						image="Modelo"
+						size="large"/>
+
+				</group >
+
+
+			</tab>
+		</tabs>
+	</ribbon>
+
+<backstage>
+
+   <button
+	idMso="FileSave"
+	visible="false"/>
+   <button
+	idMso="FileSaveAs"
+	visible="false"/>
+   <button
+	idMso="FileOpen" visible="false"/>
+   <button
+	idMso="FileClose"
+	visible="false"/>
+   <button
+	idMso="ApplicationOptionsDialog"
+	visible="false"/>
+   <button
+	idMso="FileExit"
+	visible="false"/>
+   <tab
+	idMso="PlaceTabHome"
+	visible="false"/>
+
+   <tab
+	idMso="TabInfo"
+	visible="false"/>
+   <tab
+	idMso="TabRecent"
+	visible="false"/>
+   <tab
+	idMso="TabNew"
+	visible="false"/>
+   <tab
+	idMso="TabPrint"
+	visible="false"/>
+   <tab
+	idMso="TabShare"
+	visible="false"/>
+   <tab
+	idMso="Publish2Tab"
+	visible="false"/>
+   <tab
+	idMso="TabHelp"
+	visible="false"/>
+   <tab
+	idMso="TabPublish"
+	visible="false"/>
+   <tab
+	idMso="TabSave"
+	visible="false"/>
+   <tab
+	idMso="TabOfficeStart"
+	visible="false"/>
+   <tab
+	idMso="TabOfficeFeedback"
+	visible="false"/>
+   <button
+	idMso="HistoryTab"
+	visible="false"/>
+
+      <tab id="MyTab" insertAfterMso="TabPrint" label="Contato" columnWidthPercent="30">				
+				
+            <firstColumn>				
+                	<taskGroup
+			id="customTaskGroup">
+      		<category
+				id="tgCategory1"
+				label="Gostou? Me chama no whats!!!">
+      				<task
+						id="task1"
+						label="WhatsApp"
+						image="Whats"
+						onAction="Acessa_Whats"/>
+					<task
+						id="task2"
+						image="Meu_Zap"/>
+      		</category>
+      	</taskGroup>
+            </firstColumn>				
+                	
+     	</tab>	
+
+</backstage>
+
+</customUI>

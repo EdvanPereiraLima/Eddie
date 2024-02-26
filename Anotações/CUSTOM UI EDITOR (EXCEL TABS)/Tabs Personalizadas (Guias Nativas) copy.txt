@@ -1,0 +1,83 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+
+	<!--rIBON-->	
+	<ribbon startFromScratch="true">
+
+		<contextualTabs>
+     		<tabSet idMso="TabSetSmartArtTools" visible="true" />
+     		<tabSet idMso="TabSetChartTools" visible="true" />
+			<tabSet idMso="TabSetDrawingTools" visible="true" />
+			<tabSet idMso="TabSetPictureTools" visible="true" />
+			<tabSet idMso="TabSetPivotTableTools" visible="true" />
+			<tabSet idMso="TabSetHeaderAndFooterTools" visible="true" />
+			<tabSet idMso="TabSetTableToolsExcel" visible="true" />
+			<tabSet idMso="TabSetPivotChartTools" visible="true" />
+			<tabSet idMso="TabSetInkTools" visible="true" />
+    	</contextualTabs>
+
+	</ribbon>
+
+<backstage>
+
+   <button
+	idMso="FileSave"
+	visible="true"/>
+   <button
+	idMso="FileSaveAs"
+	visible="true"/>
+   <button
+	idMso="FileOpen" visible="true"/>
+   <button
+	idMso="FileClose"
+	visible="true"/>
+   <button
+	idMso="ApplicationOptionsDialog"
+	visible="true"/>
+   <button
+	idMso="FileExit"
+	visible="true"/>
+   <tab
+	idMso="PlaceTabHome"
+	visible="true"/>
+
+   <tab
+	idMso="TabInfo"
+	visible="true"/>
+   <tab
+	idMso="TabRecent"
+	visible="true"/>
+   <tab
+	idMso="TabNew"
+	visible="true"/>
+   <tab
+	idMso="TabPrint"
+	visible="true"/>
+   <tab
+	idMso="TabShare"
+	visible="true"/>
+   <tab
+	idMso="Publish2Tab"
+	visible="true"/>
+   <tab
+	idMso="TabHelp"
+	visible="true"/>
+   <tab
+	idMso="TabPublish"
+	visible="true"/>
+   <tab
+	idMso="TabSave"
+	visible="true"/>
+   <tab
+	idMso="TabOfficeStart"
+	visible="true"/>
+   <tab
+	idMso="TabOfficeFeedback"
+	visible="true"/>
+   <button
+	idMso="HistoryTab"
+	visible="true"/>
+
+      
+</backstage>
+
+</customUI>
