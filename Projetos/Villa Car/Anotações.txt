@@ -1,9 +1,16 @@
 ## Alterações Base de Dados
 
 -- Inserção colunas tabela CadastroGeral
-ObsRecall
-UsuCadRecall
-DtCadRecall
-UsuAltRecall
-DtAltRecall
-JustAltRecall
+ObsRecall -> Ok
+UsuCadRecall -> Ok
+DtCadRecall -> Ok
+UsuAltRecall -> Ok
+DtAltRecall -> Ok
+JustAltRecall -> Ok
+
+-- Inserção coluna "STATUS" (Numérico) nas tabelas:
+TbAtendimento
+TbCores
+TbMontadoras
+TbSeguradoras
+TbUsuarios
