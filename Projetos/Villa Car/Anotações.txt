@@ -14,3 +14,4 @@ TbCores
 TbMontadoras
 TbSeguradoras
 TbUsuarios
+CadastroGeral
