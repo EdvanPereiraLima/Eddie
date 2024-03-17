@@ -15,3 +15,8 @@ TbMontadoras
 TbSeguradoras
 TbUsuarios
 CadastroGeral
+
+-- Inserção colunas tabela CadastroGeral
+IdOrcamento - Número
+Aprovacao - Sim/Não
+
