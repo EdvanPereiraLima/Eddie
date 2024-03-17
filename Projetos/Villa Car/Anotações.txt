@@ -20,3 +20,10 @@ CadastroGeral
 IdOrcamento - Número
 Aprovacao - Sim/Não
 
+-- Inserção colunas tabela TbOrcamentos
+UsuCadOrc - Texto Curto
+DtCadOrc - Data/Hora
+UsuAltOrc - Texto Curto
+DtAltOrc - Data/Hora
+
+
