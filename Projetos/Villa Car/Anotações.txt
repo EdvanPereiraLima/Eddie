@@ -16,14 +16,16 @@ TbSeguradoras
 TbUsuarios
 CadastroGeral
 
--- Inserção colunas tabela CadastroGeral
-IdOrcamento - Número
-Aprovacao - Sim/Não
-
 -- Inserção colunas tabela TbOrcamentos
 UsuCadOrc - Texto Curto
 DtCadOrc - Data/Hora
 UsuAltOrc - Texto Curto
 DtAltOrc - Data/Hora
+IdOrcamento - Número
+Aprovacao - Sim/Não
+ValorMO - Moeda
+ObsOrçamento - Texto Curto
+Vlrpecas - Moeda
+VlrTtl - Moeda
 
 
