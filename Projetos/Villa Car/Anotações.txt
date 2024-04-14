@@ -24,7 +24,7 @@ DtAltOrc - Data/Hora
 IdOrcamento - Número
 Aprovacao - Sim/Não
 ValorMO - Moeda
-ObsOrçamento - Texto Curto
+ObsOrçamento - 'Texto Curto
 Vlrpecas - Moeda
 VlrTtl - Moeda
 
