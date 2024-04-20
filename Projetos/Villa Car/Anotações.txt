@@ -9,23 +9,23 @@ DtAltRecall -> Ok
 JustAltRecall -> Ok
 
 -- Inserção coluna "STATUS" (Numérico) nas tabelas:
-TbAtendimento
-TbCores
-TbMontadoras
-TbSeguradoras
-TbUsuarios
-CadastroGeral
+TbAtendimento -> Ok
+TbCores -> Ok
+TbMontadoras -> Ok
+TbSeguradoras -> Ok
+TbUsuarios -> Ok
+CadastroGeral -> Ok
 
 -- Inserção colunas tabela TbOrcamentos
-UsuCadOrc - Texto Curto
-DtCadOrc - Data/Hora
-UsuAltOrc - Texto Curto
-DtAltOrc - Data/Hora
-IdOrcamento - Número
-Aprovacao - Sim/Não
-ValorMO - Moeda
-ObsOrçamento - 'Texto Curto
-Vlrpecas - Moeda
-VlrTtl - Moeda
+UsuCadOrc - Texto Curto -> Ok
+DtCadOrc - Data/Hora -> Ok
+UsuAltOrc - Texto Curto -> Ok
+DtAltOrc - Data/Hora -> Ok
+IdOrcamento - Número -> Ok
+Aprovacao - Sim/Não -> Ok
+ValorMO - Moeda -> Ok
+ObsOrçamento - 'Texto Curto -> Ok
+Vlrpecas - Moeda -> Ok
+VlrTtl - Moeda -> Ok
 
 
